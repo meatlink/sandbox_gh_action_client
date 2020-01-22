@@ -10,7 +10,6 @@ jobs:
       run: |
         pwd
         ls
-        ls /
         touch testfile.before-docker
 
     - name: Hello world action step
@@ -23,7 +22,6 @@ jobs:
       run: |
         pwd
         ls
-        ls /
         touch testfile.after-docker
   
     # Use the output from the `hello` step
