@@ -20,11 +20,11 @@ jobs:
         who-to-greet: 'Mona the Octocat'
 
     - name: create sample another test file
-        run: |
-          pwd
-          ls
-          ls /
-          touch testfile.after-docker
+      run: |
+        pwd
+        ls
+        ls /
+        touch testfile.after-docker
   
     # Use the output from the `hello` step
     - name: Get the output time
