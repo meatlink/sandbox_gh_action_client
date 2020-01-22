@@ -9,8 +9,8 @@ jobs:
     - name: create sample one test file
       run: |
         pwd
-        ls
         touch testfile.before-docker
+        ls
 
     - name: Hello world action step
       id: hello
@@ -21,8 +21,8 @@ jobs:
     - name: create sample another test file
       run: |
         pwd
-        ls
         touch testfile.after-docker
+        ls
   
     # Use the output from the `hello` step
     - name: Get the output time
